@@ -23,6 +23,7 @@ public class EmpService {
 		map.put(1001, new Emp(1001, "rama", 23000));
 		map.put(1002, new Emp(1002, "sam", 13000));
 		map.put(1003, new Emp(1001, "david", 33000));
+		System.out.println("Employee data");
 	}
 	
 	public Emp findByEmpId(int eid) {
